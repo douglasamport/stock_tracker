@@ -1,0 +1,23 @@
+# Print all files for session
+# session.files.each do |file|
+#   p file.title
+# end
+
+# Insert line
+# worksheet.insert_rows(2, [["Hello!", "This", "was", "inserted", "via", "Ruby"]])
+# worksheet.save
+
+# insert at bottom
+# worksheet.insert_rows(worksheet.num_rows + 1, [["Hello!", "This", "was", "inserted", "at", "the", "bottom"]])
+# worksheet.save
+
+#to update a cell you can reference the cell by row and column number:
+# worksheet[2, 1] = "Updated!"
+# worksheet.save
+# or cell Name
+# worksheet["A2"] = "Updated again!"
+# worksheet.save
+
+# Deleting rows is like inserting rows, you need to provide the row number and how many rows you’d like to delete:
+# worksheet.delete_rows(2, 1)
+# worksheet.save
